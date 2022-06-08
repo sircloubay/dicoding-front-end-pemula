@@ -1,0 +1,282 @@
+@import url("./root.css");
+@import url("./animation-hero.css");
+
+/* hero section */
+.hero-section{
+    width:100%;
+    height: 868px;
+    margin-top:60px;
+    overflow: hidden;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(26,35,126,1) 71%, rgba(13,71,161,1) 100%);
+}
+
+.wrap-hero-text{
+    width: 70%;
+    height: 160px;
+    margin:250px auto 0px auto;
+    text-align: center;
+    z-index: 1000;
+    position: relative;
+}
+
+.wrap-hero-text > h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.wrap-hero-text > p{
+    font-size: 28px;
+    margin-top: 15px;
+    font-weight: lighter;
+}
+
+.wave{
+    width: 100%;
+    height: 200px;
+    z-index: 1000;
+    margin-top: -190px;
+    position: absolute;
+    margin-bottom: 300px;
+    border: none;
+    background-color: none;
+}
+
+.wave > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* end hero section */
+
+
+/* fun fact section */
+.fun-fact{
+    width:100%;
+}
+
+.fun-fact-content{
+    height: 100%;
+    height: 630px;
+    padding:30px 15px;
+    text-align: center;
+}
+
+.title-content{
+    color: #14348f;
+    font-size: 36px;
+    margin-top: 60px;
+}
+
+.wrap-article-fun-fact{
+    padding:30px 10%;
+}
+
+.wrap-article-fun-fact  article{
+    width: 28%;
+    height: 400px;
+    margin:15px 2%;
+    background-color: #14348f;
+    float: left;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, .5);
+    padding: 15px;
+    transition: .3s ease-in-out;
+}
+
+.wrap-article-fun-fact  article:hover{
+    transform: scale(1.05);
+    transition: .3s ease-in-out;
+    box-shadow: 0px 0px 3px 1.5px rgba(0, 0, 0, .7);
+}
+
+
+.wrap-article-fun-fact  article  img{
+    width:70%;
+    margin-bottom: 15px;
+}
+
+.wrap-article-fun-fact article h2{
+    font-size: 22px;
+    line-height: 150%;
+}
+/* end fun fact section */
+
+
+/* neil content section */
+.neil-content{
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    padding: 30px 10%;
+    color: #14348f;
+    margin-bottom: 60px;
+    height: auto;
+    margin-top:-45px;
+}
+
+.background-neil-amstrong{
+    width: 100%;
+    height: 550px;
+    background-color: grey;
+    margin-top: 30px;
+    background-image: url("../img/neilamstrong.png");
+    background-size: 100% 100%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.neil-content p{
+    font-size: 28px;
+    margin-top: 20px;
+    text-align: left;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.btn-more{
+    padding: 9px 36px;
+    width: 180px;
+    background: rgb(255,1,122);
+    background: linear-gradient(204deg, rgba(255,1,122,1) 0%, rgba(13,71,161,1) 100%);
+    margin-top: 30px;
+    font-size: 18px;
+    text-align: left;
+    border-radius: 8px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+/*  end neil content section */
+
+
+/* tablet screen */
+@media(max-width:992px){
+
+    /* hero section */
+    .wrap-hero-text{
+        width: 90%;
+    }
+
+    .wrap-hero-text > h1{
+        font-size: 36px;
+    }
+
+    .wrap-hero-text > p{
+        font-size: 23px;
+    }
+    /* end hero section */
+
+
+    /* fun fact section */
+    .fun-fact-content{
+        height: 600px;
+        padding-bottom: 0px;
+    }
+
+    .title-content{
+        color: #14348f;
+        font-size: 28px;
+        margin-top: 60px;
+    }
+
+    .wrap-article-fun-fact{
+        padding:30px 3%;
+    }
+    
+    .wrap-article-fun-fact  article{
+        width:28%;
+        height: 300px;
+        margin:15px 2%;
+    }
+
+    .wrap-article-fun-fact article h2{
+        font-size: 18px;
+        line-height: 125%;
+    }
+    /* end fun fact section */
+
+
+    /* neil content section */
+    .neil-content{
+        padding-top: 0px;
+        margin-top: -90px;
+    }
+
+    .neil-content p{
+        font-size: 23px;
+    }
+    /* end neil content section */
+}
+
+
+/* mobile screen */
+@media(max-width:600px){
+    /* hero section */
+    .hero-section{
+        height: 700px;
+    }
+
+    .wrap-hero-text{
+        width: 95%;
+        margin:200px auto 0px auto;
+    }
+
+    .wrap-hero-text > h1{
+        font-size: 24px;
+    }
+
+    .wrap-hero-text > p {
+        font-size: 18px;
+    }
+    /* end hero section */
+
+
+    /* fun fact section */
+    .fun-fact-content{
+        height: 1300px;
+    }
+
+    .title-content{
+        color: #14348f;
+        font-size: 26px;
+        margin-top: 60px;
+    }
+
+    .wrap-article-fun-fact{
+        padding:30px 15px;
+    }
+    
+    .wrap-article-fun-fact  article{
+        width:100%;
+        height: 400px;
+        margin:15px 0px;
+    }
+
+    .wrap-article-fun-fact  article img{
+        width: 60%;
+    }
+
+    .wrap-article-fun-fact article h2{
+        font-size: 20px;
+        line-height: 150%;
+    }
+    /* end fun fact section */
+
+
+    /* neil content section */
+    .neil-content{
+        margin-top:175px;
+    }
+
+    .background-neil-amstrong{
+        height: 300px;
+    }
+
+    .neil-content p{
+        font-size: 18px;
+    }
+    /* end neil content section */
+}

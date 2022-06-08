@@ -1,0 +1,136 @@
+@import url("./root.css");
+@import url("./animation-hero.css");
+
+body{
+    background-color: #14348f;
+    padding-top: 60px;
+}
+
+
+main{
+    padding: 30px 5%;
+}
+
+.thumbnail{
+    width:30%;
+    height: 500px;
+    float: left;
+}
+
+.thumbnail img{
+    width: 100%;
+}
+
+.description{
+    width: 70%;
+    height: auto;
+    padding:30px 0px;
+    float: right;
+}
+
+.title{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.short-dev{
+    padding:30px 0px;
+}
+
+.short-dev p{
+    margin-top:15px;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.short-dev p strong{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.comment{
+    width:100%;
+    color:#14348f ;
+}
+
+.list-comment{
+    width:100%;
+    height: auto;
+    padding:15px 20px;
+    background-color: white !important;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    margin-bottom: 15px;
+}
+
+.list-comment:hover{
+    transform: scale(1.05);
+    transition: .3s ease-in-out;
+    box-shadow: 0px 0px 3px 1px rgba(255, 255, 255, .8);
+}
+
+.name-comment{
+    font-size: 19px;
+    margin-bottom: 5px;
+}
+
+form{
+    width:100%;
+    height: auto;
+    margin-top: 60px;
+}
+
+input[type="text"]{
+    width: 100%;
+    height: 60px;
+    margin-bottom: 15px;
+    padding:0px 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 2px solid white;
+}
+
+textarea{
+    width: 100%;
+    padding:15px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+button{
+    width:100%;
+    height: 60px;
+    margin-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #14348f;
+    border: 2px solid white;
+}
+
+
+@media(max-width:992px){
+    .thumbnail{
+        width:50%;
+        height: auto;
+    }
+
+    .description{
+        width: 100%;
+    }
+}
+
+
+@media(max-width:600px){
+    .thumbnail{
+        width:100%;
+        height: auto;
+    }
+
+    .description{
+        width: 100%;
+    }
+}
