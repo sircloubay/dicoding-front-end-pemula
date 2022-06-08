@@ -3,3 +3,7 @@ Buka Folder Ini dengan menggunakan live server vscode
 // fitur commentar
 terdapat fitur commentar pada website ini,untuk mengakses seilahkan pilih menu jelajah
 lalu pilih artikel dan masuk kedalam artikel tersebut
+
+// akses webiste secara online
+https://sircloubay.github.io/dicoding-front-end-pemula/index.html
+anda bisa mengunjungi tautan diatas untuk membuka website secara online
